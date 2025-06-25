@@ -40,7 +40,7 @@ for index, row in df_input.iterrows():
     graph_config = {
         "llm": {
             "api_key": OPENAI_API_KEY,
-            "model": "gpt-4o",
+            "model": "gpt-3.5-turbo",
             "temperature": 0,
         },
         "verbose": False,
